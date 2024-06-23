@@ -1,0 +1,415 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    max-width: 100vw;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    padding: 20px 40px;
+}
+
+header img{
+    margin-right: 50px;
+}
+
+nav{
+    display: flex;
+}
+
+nav input[type="text"]{
+    margin: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 11px 5px;
+    border: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background: red;
+    font-weight: bold;
+    padding: 10px 5px;
+    border-radius: 0px 10px 10px 0px;
+    margin: none;
+    z-index: 1;
+    position: absolute;
+}
+
+nav label{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 100px;
+    line-height: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav label:hover{
+    text-decoration: underline 3px;
+}
+
+main{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menusup{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content:initial;
+    flex-direction: column;
+    width: 98.4%;
+    height: 70vh;
+    padding: 10px;
+    background: url(https://static.vecteezy.com/ti/fotos-gratis/p2/2801935-close-up-de-homem-segurando-peso-na-academia-gratis-foto.jpg) center;
+}
+
+.menusup label{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 80px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.menusup p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 150px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.tipos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: red;
+    margin-bottom: 40px;
+    padding: 10px 0px;
+    width: 100vw;
+}
+
+.tipos a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.tipos a:hover{
+    text-decoration: underline 4px solid;
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.produtos a{
+    text-decoration: none;
+}
+
+.whey{
+    display: flex;
+    width: 21vw;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px grey;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.whey:hover{
+    box-shadow: 5px 5px 30px grey;
+}
+
+.whey h1{
+    font-size: 18px;
+    margin: 20px 10px 10px 10px;
+    color: black;
+}
+
+.whey img{
+    width: 80px;
+    height: 120px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.whey label{
+    text-decoration: line-through;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.whey h2{
+    margin-top: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.whey button{
+    text-decoration: none;
+    background: red;
+    color: white;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 15px 25px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.whey button:hover{
+    text-decoration: underline 2px;
+    background: red;
+    color: white;
+}
+
+.newsletter{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: red;
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.newsletter input[type="text"]{
+    color: red;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    padding: 12px 10px;
+    width: 20vw;
+}
+
+.newsletter input[type="text"]::placeholder{
+    color: red;
+    font-weight: bold;
+}
+
+.newsletter input[type="submit"]{
+    position: absolute;
+    color: white;
+    background: red;
+    border: 2px solid white;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px 10px;
+    width: 5vw;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#avaliacoes{
+    margin: 80px;
+    text-align: center;
+}
+
+#avaliacoes label{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.avaliacoes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.avaliacoes div{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(170, 170, 170);
+    border-radius: 20px;
+    color: white;
+}
+
+.avaliacoes div h1{
+    margin-bottom: 0px;
+}
+
+.avaliacoes div h2{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.avaliacoes div h3{
+    margin: 2px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.avaliacoes div img{
+    margin: 0px 6vw;
+    width: 13vw;
+    height: 10vh;
+}
+
+footer{
+    width: 100%;
+    padding: 40px 50px;
+    padding-bottom: 0px;
+    background: red;
+    text-align: center;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:500px){
+
+    header{
+        flex-direction: column;
+    }
+
+    #avaliacoes{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avaliacoes{
+        flex-direction: column;
+        margin: 5vw;
+    }
+
+    .avaliacoes div{
+        margin-bottom: 50px;
+        width: 100vw;
+    }
+
+    .rodape{
+        flex-direction: column;
+    }
+
+    .rodape img{
+        margin-bottom: 20px;
+    }
+}
+
+.rodape label{
+    color: white;
+    font-weight: bold;
+}
+
+footer h1{
+    margin: 60px 0px 0px 0px;
+    padding-bottom: 40px;
+    color: white;
+    line-height: 16px;
+    font-size: 16px;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    background: red;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.venda{
+    display: flex;
+    margin: 80px;
+    justify-content: space-evenly;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.foto img{
+    width: 15vw;
+    height: 45vh;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 80px;
+}
+
+.compra{
+    display: flex;
+    justify-content: safe;
+    flex-direction: column;
+}
+
+.venda h1{
+    font-size: 30px;
+}
+
+.venda h2{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.venda h3{
+    font-size: 18px;
+    color: black;
+    text-decoration: line-through;
+}
+
+.venda h4{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.comprar{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: red;
+    cursor: pointer;
+}
+
+.carrinho{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    background: white;
+    cursor: pointer;
+}
+
+.comprar:hover{
+    text-decoration: underline 2px;
+}
+
+.carrinho:hover{
+    text-decoration: underline 2px;
+}
+
