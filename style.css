@@ -413,3 +413,108 @@ footer h1{
     text-decoration: underline 2px;
 }
 
+.mySlides {
+    display: none;
+    width: 30vw;
+    height: 70vh;
+}
+.mySlides img {
+    /* vertical-align: middle; */
+    border-radius: 10px;
+    height: 50vh;
+    width: 100vw;
+}
+
+.slideshow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 30vw;
+  height: 70vh;
+  position: relative;
+  margin: auto;
+  box-shadow: 1px 1px 6px;
+  border-radius: 10px;
+}
+
+.text {
+    background-color: rgba(65, 65, 65, 0.479);
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 20px 0px;
+  border-radius: 0px 0px 10px 10px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: rgb(209, 209, 209);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  background-color: rgb(201, 201, 201);
+}
+
+.active {
+  background-color: #ff0000;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.produto-avo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    background: url(Imagens/fundo-produtos1.png) no-repeat center;
+    background-size: 50vw 71vh;
+    background-position: 40% 0%;
+}
+
+.produto-mae{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.produto-pai{
+    background: white;
+    border-radius: 10px;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
