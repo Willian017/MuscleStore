@@ -29,52 +29,6 @@
 
             <h1 class="titulo">Nossos Produtos</h1>
 
-            <article id="carrosel">
-                <br><br><br>
-
-                <div class="produto-avo">
-
-                    <div class="produto-pai">
-                    
-                        <div class="slideshow-container">
-                        
-                            <a href="wheymax.html">
-                                <div class="mySlides fade">
-                                    <div class="numbertext">1 / 3</div>
-                                    <img src="https://m.media-amazon.com/images/I/61EhuiKrF5L._AC_UF1000,1000_QL80_.jpg" style="width:100%">
-                                    <div class="text">Whey Max Titanium</div>
-                                </div>
-                            </a>
-
-                                <div class="mySlides fade">
-                                    <div class="numbertext">2 / 3</div>
-                                    <img src="https://m.media-amazon.com/images/I/51ZXuAbGvlL._AC_UF1000,1000_QL80_.jpg" style="width:100%">
-                                    <div class="text">Pre Treino Panic</div>
-                                </div>
-                        
-                                <div class="mySlides fade">
-                                    <div class="numbertext">3 / 3</div>
-                                    <img src="https://http2.mlstatic.com/D_NQ_NP_769767-MLA49912299607_052022-O.jpg" style="width:100%">
-                                    <div class="text">Whey Growth</div>
-                                </div>
-                                    
-                        </div>
-
-                        <br>
-                        
-                        <div style="text-align:center">
-                            <span class="dot"></span> 
-                            <span class="dot"></span> 
-                            <span class="dot"></span>
-                        </div>
-                        
-                        <br><br><br>
-                        
-                    </div>
-
-                </div>
-
-            </article>
 
             <article class="produtos">
 
@@ -209,25 +163,4 @@
             </footer>
         </main>
     </body>
-
-    <script>
-        let slideIndex = 0;
-        showSlides();
-        
-        function showSlides() 
-        {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++)
-                slides[i].style.display = "none";  
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}    
-                for (i = 0; i < dots.length; i++)
-                    dots[i].className = dots[i].className.replace(" active", "");
-            slides[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 3000); // Change image every 2 seconds
-        }
-    </script>
 </html>
